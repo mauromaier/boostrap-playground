@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Formulário Grid System</title>
+    
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+        
+  </head>
+  <body>   
+      <div class="container body">
+           <fieldset>
+                <div class="container-fluid">
+                     <div class="page-header">
+                    <div class="form-group">
+                        <ul class="nav nav-tabs">
+                          <li role="presentation" class="active"><a href="#">Try it</a></li>
+                          <li role="presentation"><a href="#">HTML</a></li>
+                          <li role="presentation"><a href="#">JS</a></li>
+                        </ul>
+                    </div>
+                
+        <form >
+            
+            <div class="row">
+            
+            <div class="col-md-8">
+                <div class="form-group has-error has-feedback">
+                    <label class="control-label">Movie title</label>
+                    <input class="form-control" type="text">
+                    <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                    <span class="help-block">The title is required</span>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="form-group has-error has-feedback">
+                    <label class="control-label">Genre</label>
+                    <select class="form-control"  >
+                        <option>Choose genre</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </select>
+                    <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                    <span class="help-block">The genre is required</span>
+                </div>
+            </div>
+            </div>
+            
+            <div class="row">
+                
+            <div class="col-md-4">
+            <div class="form-group has-success has-feedback">
+                <label class="control-label">Director</label>
+                <input class="form-control" type="text" placeholder="js-tutorial.com">
+                <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            </div>
+            </div>
+            
+            <div class="col-md-4">
+            <div class="form-group has-success has-feedback">
+                <label class="control-label">Writer</label>
+                <input class="form-control" type="text" placeholder="js-tutorial.com">
+                <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            </div>
+            </div>
+                
+            <div class="col-md-4">
+            <div class="form-group has-success has-feedback">
+                <label class="control-label">Producer</label>
+                <input class="form-control" type="text" placeholder="js-tutorial.com">
+                <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            </div>
+            </div>
+                
+            </div>
+            <div class="row">
+
+            <div class="col-md-6">
+            <div class="form-group has-error has-feedback">
+                <label class="control-label">Website</label>
+                <input class="form-control" type="text" placeholder="www.js-tutorial.com">
+                <span class="help-block">The website address is not valid</span>
+                <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+            </div>
+            </div>
+                
+            <div class="col-md-6">
+            <div class="form-group has-error has-feedback">
+                <label class="control-label">Youtube trailer</label>
+                <input class="form-control" type="text" placeholder="www">
+                <span class="help-block">The trailer link is not valid</span>
+                <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+            </div>
+            </div>
+            </div>
+            
+            <input class="btn btn-default" type="submit" value="Validate">
+          
+        </form>  
+                </div>
+               </div>
+          </fieldset>
+      </div>
+    <script src="assets/js/jquery-2.2.2.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
