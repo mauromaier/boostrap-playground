@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Cadastro de Foco Aedes aegypti e Aedes Albopictus</title>
+    
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/file.css" rel="stylesheet">
+
+        
+  </head>
+  <body>
+      
+      <div class="container">
+        
+            <div class="container-fluid">
+            <form role="form" class="form-horizontal">
+             
+            <div class="form-group">
+            
+                <br>
+                       
+            <div class="row">
+                <div class="form-group">
+                    <label class="control-label col-md-2">Regional:</label>
+                    <div class="col-md-4">
+                        <select class="form-control">
+                            
+                        </select>
+                    </div>
+                
+                    <label class="control-label col-md-2">Tipo de imóvel:</label>
+                    <div class="col-md-4">
+                        <select class="form-control">
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="form-group">
+                    <label class="control-label col-md-2">Município:</label>
+                    <div class="col-md-4">
+                        <select class="form-control">
+                            
+                        </select>
+                    </div>
+                
+                    <label class="control-label col-md-2">Tipo de Depósito:</label>
+                    <div class="col-md-4">
+                        <select class="form-control">
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="row">
+                <div class="form-group">
+                    <label class="control-label col-md-2">Localidade:</label>
+                    <div class="col-md-4">
+                        <select class="form-control" disabled>
+                            
+                        </select>
+                    </div>
+                
+                    <label class="control-label col-md-2">Tipo de Depósito:</label>
+                    <div class="col-md-4">
+                        <select class="form-control">
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="row">
+                <div class="form-group">
+                    <label class="control-label col-md-2">Espécie:</label>
+                    <div class="col-md-4">
+                        <select class="form-control">
+                            
+                        </select>
+                    </div>
+                
+                <label class="control-label col-md-2"></label>
+                    <div class="col-md-4">
+                        <input type="checkbox" data-toggle="checkbox-x" value="1" data-three-state="false">
+                        <label class="control-label">Existência de Mosquitos Adultos</label>
+                
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                
+                    <label class="control-label col-md-2">Período de coleta:</label>
+                    <div class="col-md-2">
+                        <input class="form-control" type="date">
+                    </div>
+                   
+                    <div class="col-md-2">
+                        <input class="form-control" type="date">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-default center-block btn-lg">
+                                <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Buscar
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            
+             <div class="row">
+                <div class="form-group">
+                <div class="pull-left">
+                    <label class="control-label col-md-12">Ordenação:</label>
+                </div>
+                <br>
+                <hr class="hr-primary" />
+                </div>
+            </div>
+               
+             <div class="row">
+                <div class="form-group">
+                
+                      
+                    <div class="col-md-4">
+                        <input type="checkbox" data-toggle="checkbox-x" value="1" data-three-state="false">
+                        <label class="control-label">município</label>
+                
+                    </div>
+                      
+                    <div class="col-md-4">
+                        <input type="checkbox" data-toggle="checkbox-x" value="1" data-three-state="false">
+                        <label class="control-label">localidade</label>
+                
+                    </div>
+                      
+                    <div class="col-md-4">
+                        <input type="checkbox" data-toggle="checkbox-x" value="1" data-three-state="false">
+                        <label class="control-label">data de coleta</label>
+                
+                    </div>
+                    
+                </div>
+            </div>
+           
+                    
+                        
+                          
+        
+            </div>
+            
+                        <div class="row">
+            <div class="form-group">
+                  <div class="panel-body">
+                    <div class="table-overflow ">
+                    <div class="table-overflow ">
+                    <table class="table table-striped">
+                        <tr>
+                        <th>Município</th>
+                        <th>Localidade</th>
+                        <th>Data Coleta</th>
+                        <th>Imóvel</th> 
+                        <th>Depósito</th> 
+                        <th>A. aegypti</th>
+                        <th>A. albopictus</th>
+                        <th>Ovo A. aegypti</th>
+                        <th>Nº. Controle</th>
+                        <th></th>
+                        </tr>    
+                        <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                        <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                         <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                         <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                         <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                         <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                         <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                         <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                         <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                         <tr>
+                            <td>Palhoça</td>
+                            <td>Divinéia</td> 
+                            <td>10/01/2016</td>
+                            <td>Comércio</td>
+                            <td>ARM - Armadilha</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>ARM 1/16</td>
+                        </tr>
+                        
+                     </table> 
+                    </div>
+                        
+                   </div>
+                      <div class="pull-right">
+                          <div class="row">
+                            <label class="control-label">Total de focos encontrados: 3891</label>
+                          </div>
+                          <div class="row">
+                            <label class="control-label">A. aegypti: 213</label>
+                          </div>
+                          <div class="row">
+                            <label class="control-label">A. albopictus: 555</label>
+                          </div>
+                      </div>
+                    
+                  </div>
+                
+                        <div class="pull-right">
+                            <button class="btn btn-default"><span class="glyphicon glyphicon-circle-arrow-left"></span>
+                Voltar</button>  
+
+                        </div>
+                        <div class="pull-left"> 
+                            <button class="btn btn-default center-block"><span class="glyphicon glyphicon-question-sign"></span>
+                Dados do Foco</button>               
+                        </div>
+                        <div class="pull-left"> 
+                            <button class="btn btn-default"><span class="glyphicon glyphicon-print"></span>
+                Impressão</button>               
+                        </div>
+               
+             </div>
+           </div>
+                
+           
+                
+            
+        </form>
+        </div>
+        
+    </div> 
+    <script src="assets/js/jquery-2.2.2.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html> 
